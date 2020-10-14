@@ -1,0 +1,333 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    opacity: 0.9;
+}
+a:hover {
+    opacity: 1;
+}
+
+/*Header*/
+header {
+    background-color: #FFF;
+    width: 100%;
+    position: absolute; /*fica por cima*/
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header nav{
+    display: flex;
+}
+
+header li:first-child {
+    margin-left: 0;
+}
+
+header li a {
+    color: #191c03;
+    margin-left: 15px;
+    font-size: 1.5em;
+}
+
+header img {
+    width: 350px;
+}
+
+
+/* HERO */
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 15px 15px;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.hero h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero .btn {
+    background-color: #FFF;
+    color: #191c03;
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+
+/*fotos*/
+.conheca-o-hotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.conheca-o-hotel h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #191c03;
+    text-align: center;
+}
+
+.conheca-o-hotel p {
+    max-width: 800px;
+    color: #191c03;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+.conheca-o-hotel hr {
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.conheca-o-hotel .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.conheca-o-hotel .grid li {
+    height: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.conheca-o-hotel .grid li.small {
+    flex-basis: 40%;
+}
+
+.conheca-o-hotel .grid li.large {
+    flex-basis: 60%;
+}
+
+/*características*/
+.caracteristicas{
+    background-color: #191c03;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.caracteristicas-titulo {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #FFF;
+    text-align: center;
+}
+
+.caracteristicas-paragrafo {
+    max-width: 800px;
+    color: #FFF;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+.caracteristicas-hr {
+    width: 200px;
+    height: 2px;
+    background-color: #FFF;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.caracteristicas-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.caracteristicas-grid-lista {
+    height: 350px;
+    padding: 0 30px;
+    border-radius: 5px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.caracteristicas-grid-lista i {
+    color: #c3c63b;
+    font-size: 3.5rem;
+}
+
+.caracteristicas-grid-lista {
+    flex-basis: 33%;
+}
+
+.caracteristicas-grid-titulo {
+    color: #c3c63b;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.caracteristicas-grid-paragrafo {
+    color: #FFF;
+
+}
+
+/*NewsLetter*/
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+.newsletter i {
+    color: #191c03;
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+.newsletter-titulo {
+    color: #191c03;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.newsletter-paragrafo {
+    margin-bottom: 70px;
+    color: #191c03;
+}
+
+.newsletter-hr {
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+}
+
+.form-input {
+    padding: 15px;
+    border: 1px solic #191c03;
+    color: #191c03;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.form-btn {
+    padding: 15px;
+    border: none;
+    background-color: #191c03;
+    font-weight: bold;
+    color: #c3c63b;
+    border-radius: 5px;
+    opacity: 0.9;
+    width: 150px;
+}
+
+.form-btn:hover {
+    opacity: 1;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #191c03;
+    color: #FFF;
+    width: 100%;
+    position: relative; /*fica por baixo*/
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    margin-left: 15px;
+}
+
+footer li:first-child {
+    margin-left: 0;
+}
+
+footer i {
+    color: #c3c63b;
+    font-size: 2rem;
+}
+
+
+/*acessibilidade telas pequenas*/
+@media (max-width: 991px) {
+    header {
+        flex-direction: column;
+    }
+
+    header li a {
+        font-size: 1em;
+    }
+
+    header img {
+        margin-bottom: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+
+    .conheca-o-hotel .grid li.small, 
+    .conheca-o-hotel .grid li.large {
+        flex-basis: 100%;
+    }
+
+    .caracteristicas-grid-lista {
+        flex-basis: 100%;
+    }
+
+    .form-input {
+        width: 350px;
+    }
+}
